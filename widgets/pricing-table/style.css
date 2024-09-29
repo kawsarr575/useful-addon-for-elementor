@@ -1,0 +1,102 @@
+
+.uafe-pricing-table-wrapper{
+    overflow-x:auto;
+}
+.uafe-pricing-table-wrapper thead th {
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    vertical-align: middle;
+    height: 120px;
+    border: none;
+}
+
+.uafe-pricing-table-wrapper thead th.title {
+    color: #FFFFFF !important;
+    text-align: left;
+}
+
+.uafe-pricing-table-wrapper thead th span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.uafe-pricing-table-wrapper tbody tr:nth-child(odd) {
+    background: #CCE8FF;
+}
+
+.uafe-pricing-table-wrapper tbody tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+.uafe-pricing-table-wrapper tbody td {
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #CCE8FF;
+}
+
+.uafe-pricing-table-wrapper tbody td:first-child {
+    text-align: left;
+    color: #323842;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.uafe-pricing-table-wrapper tbody td.yes i {
+    color: #088EFD;
+    font-size: 16px;
+}
+
+.uafe-pricing-table-wrapper tbody td.no i {
+    color: #141B34;
+    font-size: 16px;
+}
+
+.uafe-pricing-table-wrapper tfoot th {
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #CCE8FF;
+}
+
+.uafe-pricing-table-wrapper tfoot th:first-child {
+    text-align: left;
+    color: #111010;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.uafe-pricing-table-wrapper tfoot th button {
+    color: #585656;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    background: #E4F0FB;
+    border-radius: 6px;
+    border: 1px solid #E4F0FB;
+    padding: 8px 20px;
+}
+.uafe-pricing-table-wrapper tfoot th button:hover {
+    color: #FBFBFB;
+    background: #088EFD;
+    border-radius: 6px;
+    border: 1px solid #088EFD;
+}
+
+.uafe-pricing-table-wrapper thead th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+.uafe-pricing-table-wrapper thead th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+

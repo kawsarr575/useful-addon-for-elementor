@@ -1,0 +1,87 @@
+/* Pre Made css */
+.jas-carousel{
+    position: relative !important;  
+    transform-style: preserve-3d;  
+    transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -ms-transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    height: 100%; 
+    width:100%;
+}
+
+body.transition-remove .jas-carousel {
+    transition: none !important; 
+    -webkit-transition: none !important; 
+    -moz-transition: none !important; 
+    -ms-transition: none !important;
+}
+.jas-carousel > .jas-item{
+    position: absolute !important; 
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+}
+
+/* Custom css */
+.uafe-3d-rotated-carousel-wrapper {
+    position: relative;
+    transform-style: preserve-3d;
+}
+.uafe-3d-rotated-carousel-wrapper ul {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto 0;
+    transform-style: preserve-3d;
+}
+
+.uafe-3d-rotated-carousel-single{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 0 0 12px 0px #00000059;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.uafe-3d-rotated-carousel-single img{
+    width: 100%;
+    height: auto;
+}
+
+.uafe-3d-rotated-carousel-wrapper .jas-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.uafe-3d-rotated-carousel-wrapper .jas-control a.next,
+.uafe-3d-rotated-carousel-wrapper .jas-control a.prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #467ff7;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #467ff7;
+    font-size: 16px;
+}
+
+.uafe-3d-rotated-carousel-wrapper .jas-control a.next:hover,
+.uafe-3d-rotated-carousel-wrapper .jas-control a.prev:hover {
+    background: #467ef700;
+    color: #467ff7;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #467ff7;
+}
+
